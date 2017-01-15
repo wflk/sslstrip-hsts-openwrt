@@ -38,6 +38,6 @@ fi
 rm sslstrip-hsts_"$sslstrip_version"_ar71xx.*
 python ${INSTROOT}/usr/share/sslstrip2/setup.py install
 chmod +x ${INSTROOT}/usr/share/dns2proxy/dns2proxy.py
-ln -s ${INSTROOT}/usr/share/dns2proxy/dns2proxy.py /usr/bin/dns2proxy/dns2proxy
+ln -s ${INSTROOT}/usr/share/dns2proxy/dns2proxy.py /usr/bin/dns2proxy
 echo -e "${RED}Installation completed!"
 exit 0
