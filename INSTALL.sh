@@ -36,7 +36,9 @@ else
 fi
 # Cleanup
 rm sslstrip-hsts_"$sslstrip_version"_ar71xx.*
-python ${INSTROOT}/usr/share/sslstrip2/setup.py install
+cd ${INSTROOT}/usr/share/sslstrip2/
+python ./setup.py install
+cd -
 chmod +x ${INSTROOT}/usr/share/dns2proxy/dns2proxy.py
 ln -s ${INSTROOT}/usr/share/dns2proxy/dns2proxy.py /usr/bin/dns2proxy
 echo -e "${RED}Installation completed!"
