@@ -15,9 +15,12 @@ wget -qO- https://raw.githubusercontent.com/adde88/sslstrip-hsts-openwrt/master/
 ## Running the tools
 
 ```bash
-sslstrip -h
-dns2proxy -h
+python /usr/share/sslstrip2/sslstrip.py
+python /usr/share/dns2proxy/dns2proxy.py
 ```
+
+When running dns2proxy, it's a good idea to traverse to the directory before launching it. (Running with ./dns2proxy.py from the directory" 
+If not, you might encounter errors about missing files, such as: nospoof.cfg.
 
 ## Acknowledgments
 
