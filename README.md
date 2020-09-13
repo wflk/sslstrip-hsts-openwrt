@@ -9,7 +9,7 @@ SSH to your Pineapple. Download/launch the INSTALL.sh script to install SSLstrip
 ### Installing
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/adde88/sslstrip-hsts-openwrt/master/INSTALL.sh | bash -s -- -v -v
+wget -qO- https://raw.githubusercontent.com/wflk/sslstrip-hsts-openwrt/master/INSTALL.sh | bash -s -- -v -v
 ```
 
 ## Running the tools

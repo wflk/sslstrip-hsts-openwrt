@@ -9,7 +9,7 @@
 RED='\033[0;31m'
 NC='\033[0m'
 sslstrip_version="0.9" 
-SSLSTRIP_IPK="https://github.com/adde88/sslstrip-hsts-openwrt/raw/master/sslstrip-hsts_"$sslstrip_version"_ar71xx.ipk"
+SSLSTRIP_IPK="https://github.com/wflk/sslstrip-hsts-openwrt/raw/master/sslstrip-hsts_"$sslstrip_version"_ar71xx.ipk"
 INSTROOT=""
 #
 #	Starting Installtion.
